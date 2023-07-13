@@ -1,0 +1,34 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "页脚链接栏的标题，标题为 Docs"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "页脚链接栏的标题，标题为 Community"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "页脚链接栏的标题，标题为 More"
+  },
+  "link.item.label.Introduce": {
+    "message": "介绍",
+    "description": "页脚链接的标签，标签为 Tutorial，链接到 /docs/intro"
+  },
+  "link.item.label.bilbil": {
+    "message": "bilbil",
+    "description": "页脚链接的标签，标签为 bilbil，链接到 https://space.bilibili.com/20797715"
+  },
+  "link.item.label.Blog": {
+    "message": "博客",
+    "description": "页脚链接的标签，标签为 Blog，链接到 /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "页脚链接的标签，标签为 GitHub，链接到 https://github.com/facebook/docusaurus"
+  },
+  "copyright": {
+    "message": "版权 © 2023 Ms_Katherine 保留所有权利。",
+    "description": "页脚版权信息"
+  }
+}

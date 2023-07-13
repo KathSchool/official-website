@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "主页",
+    "description": "Ms_Katherine 的官方网站, 致力于做好英语启蒙教育"
+  },
+  "logo.alt": {
+    "message": "主页图标",
+    "description": "点击进入主页"
+  },
+  "item.label.Introduce": {
+    "message": "介绍",
+    "description": "主页介绍"
+  },
+  "item.label.Book": {
+    "message": "绘本",
+    "description": "原创绘本"
+  },
+  "item.label.Video": {
+    "message": "视频",
+    "description": "免费视频课程"
+  },
+  "item.label.bilbil": {
+    "message": "bilbil",
+    "description": "点击进入 bilbil 主页"
+  }
+}
