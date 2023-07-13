@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkofficial_website=self.webpackChunkofficial_website||[]).push([[227],{9285:e=>{e.exports=JSON.parse('{"permalink":"/official-website/en/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
