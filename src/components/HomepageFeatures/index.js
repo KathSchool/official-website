@@ -1,45 +1,48 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Picture books",
+    path: require("@site/static/img/read.png").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Immerse in captivating picture books filled with colorful illustrations
+        and engaging characters. Discover a world of stories that entertain,
+        educate, and ignite imagination. Start a lifelong love for reading!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Songs",
+    path: require("@site/static/img/sing.png").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Sing, dance, and learn with Songs! Enjoy catchy melodies, lively
+        animations, and educational tunes. Develop language skills and
+        coordination while having fun!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Art crafts",
+    path: require("@site/static/img/craft.png").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Unleash creativity with hands-on art craft activities. Explore painting,
+        drawing, and crafting to inspire imagination and develop fine motor
+        skills. Let their inner artist shine!
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ path, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={path} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
