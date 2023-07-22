@@ -11,14 +11,14 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-site.com",
+  url: "https://kathschool.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/official-website/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "MsKatherine", // Usually your GitHub org/user name.
+  organizationName: "KathSchool", // Usually your GitHub org/user name.
   projectName: "official-website", // Usually your repo name.
 
   onBrokenLinks: "ignore",
