@@ -1,5 +1,6 @@
 import React from "react";
 import clsx from "clsx";
+import { translate } from "@docusaurus/Translate";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
@@ -12,7 +13,9 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className={styles.squrae}></div>
-      <h1 className={styles.title}>{siteConfig.title}</h1>
+      <h1 className={styles.title}>
+        {translate({ message: siteConfig.title })}
+      </h1>
     </header>
   );
 }

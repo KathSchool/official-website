@@ -1,23 +1,23 @@
 {
   "link.title.Docs": {
     "message": "文档",
-    "description": "页脚链接栏的标题，标题为 Docs"
+    "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
     "message": "社区",
-    "description": "页脚链接栏的标题，标题为 Community"
+    "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
     "message": "更多",
-    "description": "页脚链接栏的标题，标题为 More"
+    "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Introduce": {
     "message": "介绍",
-    "description": "页脚链接的标签，标签为 Tutorial，链接到 /docs/intro"
+    "description": "The label of footer link with label=Introduce linking to /intro"
   },
   "link.item.label.bilbil": {
     "message": "bilbil",
-    "description": "页脚链接的标签，标签为 bilbil，链接到 https://space.bilibili.com/20797715"
+    "description": "The label of footer link with label=bilbil linking to https://space.bilibili.com/20797715"
   },
   "link.item.label.Blog": {
     "message": "博客",
@@ -29,6 +29,14 @@
   },
   "copyright": {
     "message": "版权 © 2023 开森英语启蒙保留所有权利。",
-    "description": "页脚版权信息"
+    "description": "The footer copyright"
+  },
+  "link.item.label.redbook": {
+    "message": "小红书",
+    "description": "The label of footer link with label=redbook linking to https://www.xiaohongshu.com/user/profile/5cb2c00b0000000016016b53"
+  },
+  "link.item.label.github": {
+    "message": "github",
+    "description": "The label of footer link with label=github linking to https://github.com/orgs/MsKatherine"
   }
 }

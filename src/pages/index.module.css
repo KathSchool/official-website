@@ -16,11 +16,12 @@
 
 .title {
   font-size: 100px;
+  width: 50rem;
 }
 
 .squrae {
-  width: 300px;
-  height: 40vh;
+  width: 30rem;
+  height: 100%;
   border-radius: 50px;
   background-color: white;
 }

@@ -269,5 +269,26 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "Learn with Ms Katherine": {
+    "message": "与 Katherine 老师一起快乐学习英语"
+  },
+  "Picture books": {
+    "message": "绘本"
+  },
+  "Songs": {
+    "message": "儿歌"
+  },
+  "Art crafts": {
+    "message": "手工"
+  },
+  "Immerse in captivating picture books filled with colorful illustrations and engaging characters. Discover a world of stories that entertain, educate, and ignite imagination. Start a lifelong love for reading!": {
+    "message": "沉浸在充满彩色插图的迷人图画书中和引人入胜的人物。探索充满乐趣的故事世界，教育，激发想象力。开始对阅读的终生热爱！"
+  },
+  "Sing, dance, and learn with Songs! Enjoy catchy melodies, lively animations, and educational tunes. Develop language skills and coordination while having fun!": {
+    "message": "唱歌、跳舞、通过歌曲学习！享受朗朗上口的旋律、生动的动画和教育曲调。在享受乐趣的同时培养语言能力和协调能力！"
+  },
+  "Unleash creativity with hands-on art craft activities. Explore painting, drawing, and crafting to inspire imagination and develop fine motor skills. Let their inner artist shine!": {
+    "message": "通过动手艺术手工活动释放创造力。探索绘画、绘画和手工，激发想象力并发展精细运动技能。让他们内心的艺术家绽放光芒！"
   }
 }

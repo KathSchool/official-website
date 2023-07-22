@@ -70,8 +70,8 @@ const config = {
           //   label: "Introduce",
           // },
           { to: "/intro", label: "Introduce", position: "left" },
-          { to: "/video/main", label: "Video", position: "left" },
-          { to: "/book/main", label: "Book", position: "left" },
+          { to: "/video", label: "Video", position: "left" },
+          { to: "/book", label: "Book", position: "left" },
           {
             href: "https://space.bilibili.com/20797715",
             label: "bilbil",
@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: "Introduce",
-                to: "/docs/intro",
+                to: "/intro",
               },
             ],
           },
@@ -103,7 +103,7 @@ const config = {
                 href: "https://space.bilibili.com/20797715",
               },
               {
-                label: "小红书",
+                label: "redbook",
                 href: "https://www.xiaohongshu.com/user/profile/5cb2c00b0000000016016b53",
               },
             ],
