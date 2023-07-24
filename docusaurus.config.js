@@ -122,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ms_Katherine reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KathSchool reserved.`,
       },
       prism: {
         theme: lightCodeTheme,

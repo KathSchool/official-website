@@ -1,55 +1,54 @@
-# Website
+# 开森英语
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## 介绍
+这是开森英语启蒙的官方网站, 开森英语启蒙致力于打造最生动的英语启蒙课堂，让每一位孩子都能够快乐的学习英语。
 
-### Installation
+
+## 教学目标
+在开森英语启蒙的官方网站上，我们为您呈现一场充满活力和乐趣的英语学习之旅。作为专注于启蒙阶段的教育平台，我们深知孩子们在成长过程中对于语言学习的重要性。因此，我们汇聚了一支充满热情和经验丰富的教师团队，借助最创新的教学方法和教材，致力于打造最生动的英语启蒙课堂。
+
+在开森英语启蒙，我们坚信学习应该是一种愉悦的体验，而不是枯燥乏味的任务。我们通过寓教于乐的方式，将每堂课打造成一个充满惊喜和探索的冒险旅程。孩子们将与可爱的角色一同踏上激动人心的语言探险，通过生动有趣的故事、游戏和互动，潜移默化地掌握英语表达能力。
+
+除了丰富多彩的课堂体验，我们还注重培养孩子们的学习兴趣和自信心。我们鼓励每一位学员积极参与课堂互动，勇敢开口表达自己的想法，相信错误是学习的一部分。我们坚信，在一个充满温暖和支持的学习环境中，孩子们将愿意尝试新的挑战，勇敢面对未知，茁壮成长。
+
+开森英语启蒙的目标不仅仅是教会孩子们英语知识，更是点燃他们对于跨越语言和文化界限的热情。我们希望通过开拓视野，拥抱多样性，培养未来世界的全球公民，让每一位孩子都能够自信地与世界沟通。
+
+欢迎您和您的孩子一同加入开森英语启蒙大家庭，让我们一起开启一扇通往未来的英语之窗，让知识的种子在欢声笑语中生根发芽。让我们携手共创一个更加美好、更具希望的明天！
+
+## 开发相关
+
+### 安装
 
 ```
 $ yarn
 ```
 
-### Local Development
+### 本地运行
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+这个命令启动一个本地开发服务器并打开一个浏览器窗口。大多数更改都会实时反映在浏览器中，无需重新启动服务器。
 
 ```
-$ yarn start -- --locale zh-Hans
+$ yarn start -- --locale en
 ```
 
-Your site is accessible at http://localhost:3000/en/
+浏览器访问 http://localhost:3000/en/ 即可打开
 
 
-### Translate plugin data
+### 翻译并生成文件
 
 ```
 $ yarn write-translations --locale zh-Hans
 ```
 
-### Build
+### 构建
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+这个命令会将静态内容生成到`build`目录中，可以通过任何静态内容托管服务进行提供。
 
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
