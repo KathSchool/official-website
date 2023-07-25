@@ -38,6 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          sidebarCollapsed: false, // 默认展开所有菜单栏
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -117,7 +118,7 @@ const config = {
               // },
               {
                 label: "github",
-                href: "https://github.com/orgs/MsKatherine",
+                href: "https://github.com/orgs/KathSchool",
               },
             ],
           },
