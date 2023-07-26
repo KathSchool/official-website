@@ -4,6 +4,9 @@ sidebar_label: 数字涂色
 pagination_label: 数字涂色
 ---
 
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "../tools";
+
 ## 介绍
 
 这期视频接着上期绘本课程-White Rabbit's Colors 的颜色主题，为孩子们带来了英语活动课：数字涂色。
@@ -27,9 +30,15 @@ pagination_label: 数字涂色
 
 ## 资料
 
-<a href="/files/color_number.jpeg" download>
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/color_number.jpeg");
+  }}
+>
   下载文件
-</a>
+</Button>
 <br />
 <img
   src="/files/color_number.jpeg"
@@ -37,3 +46,4 @@ pagination_label: 数字涂色
   width="640"
   height="360"
 />
+````
