@@ -4,9 +4,10 @@
  */
 
 .heroBanner {
-  height: calc(100vh - 3.75rem);
+  height: calc(60vh - 3.75rem);
   padding: 4rem;
   position: relative;
+  overflow: hidden;
   border-bottom-right-radius: 40vh;
   justify-content: space-between;
   align-items: start;
@@ -20,7 +21,7 @@
 
 .squrae {
   width: 400px;
-  height: 400px;
+  height: 100%;
   border-radius: 50px;
   background-color: white;
 }

@@ -73,6 +73,7 @@ const config = {
           { to: "/intro", label: "Introduce", position: "left" },
           { to: "/video", label: "Video", position: "left" },
           { to: "/book", label: "Book", position: "left" },
+          { to: "/contact", label: "Contact", position: "right" },
           {
             href: "https://space.bilibili.com/20797715",
             label: "bilbil",
