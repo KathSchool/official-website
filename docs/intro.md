@@ -16,4 +16,13 @@ Let us join hands to support the future of our children, making "开森英语启
 
 # Personal Profile
 
+### Ms.Katherine
+<img
+  src="/photo/kath_job_photo.png"
+  alt="Ms.katherine"
+  style={{borderRadius: 100, overflow: 'hidden', width: 200, height: 200}}
+/>
+<br />
+<br />
+
 Katherine Teacher: With many years of experience in children's English teaching in Shenzhen; Master's degree in education from Capital Normal University; Study in early childhood education in Norway; Cambridge TKT English teaching certificate; committed to creating innovative English enlightenment classrooms.
