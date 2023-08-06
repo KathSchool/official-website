@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Learn with Ms Katherine",
-  tagline: "Ms Katherine English Enlightenment",
+  tagline: "Ms Kath School",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
