@@ -53,9 +53,7 @@ Click on the **materials** in the right navigation or scroll down below the vide
 * [\[Book\] From Head to Toe](/video/Book-绘本/from_head_to_toe)
 * [\[Artcraft\] Making an Origami Fish](/video/Artcraft-手工/origami_fish)
 * [\[Song\] Song of Shapes](/video/Song-儿歌/shape_song)
-* [\[Book\] Learning About
-
- Shapes with Little Fish](/video/Book-绘本/shapeswith_little_fish)
+* [\[Book\] Learning About Shapes with Little Fish](/video/Book-绘本/shapeswith_little_fish)
 * [\[Song\] I Can See a Rainbow](/video/Song-儿歌/I_can_see_a_rainbow)
 * [\[Artcraft\] Color by Numbers](/video/Artcraft-手工/color_by_numbers)
 * [\[Book\] Learning Colors with Little Rabbit](/video/Book-绘本/white_rabbit_colors)
