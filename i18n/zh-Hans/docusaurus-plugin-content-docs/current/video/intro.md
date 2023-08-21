@@ -18,11 +18,11 @@ import Badge from '@mui/material/Badge';
 
 ## 目录
 
-
-
+* [\[手工\]一起画毛毛虫](/video/Artcraft-手工/the_very_hungry_caterpillar) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[儿歌\]Do You Like Broccoli Ice-Cream](/video/Song-儿歌/do_you_like_broccoli_ice-cream) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[儿歌\]一起唱 Walking Walking](/video/Song-儿歌/walking_walking) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[绘本\]梦想的职业](/video/Book-绘本/what_can_she_be)  <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[儿歌\]一起唱 One Little Finger](/video/Song-儿歌/one_little_finger)  <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[绘本\]梦想的职业](/video/Book-绘本/what_can_she_be)
+* [\[儿歌\]一起唱 One Little Finger](/video/Song-儿歌/one_little_finger)
 * [\[儿歌\]一起唱 Down In The Deep Blue Sea](/video/Song-儿歌/down_in_the_deep_sea)
 * [\[绘本\]饥饿的毛毛虫(下)](/video/Book-绘本/the_very_hungry_caterpillar_2)
 * [\[绘本\]饥饿的毛毛虫(上)](/video/Book-绘本/the_very_hungry_caterpillar)

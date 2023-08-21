@@ -143,7 +143,13 @@ function HomepageHeader() {
 
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className={styles.squrae}></div>
+      <div className={styles.squrae}>
+        <img
+          src="/photo/portrait.png"
+          alt="Ms.katherine"
+          className={clsx(styles.portrait)}
+        />
+      </div>
       <h1 className={styles.title} ref={el} />
       <BookSvg className={clsx("move", styles.icon)} id="book" />
       <MusicSvg className={clsx("move", styles.icon)} id="music" />

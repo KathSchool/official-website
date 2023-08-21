@@ -18,10 +18,11 @@ Click on the **materials** in the right navigation or scroll down below the vide
 
 ## Table of Contents
 
-
+* [\[Artcraft\]The Very Hungry Caterpillar](/video/Artcraft-手工/the_very_hungry_caterpillar) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Song\]Do You Like Broccoli Ice-Cream](/video/Song-儿歌/do_you_like_broccoli_ice-cream) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Song\] Let's Sing Walking Walking](/video/Song-儿歌/walking_walking) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[Book\] Dream Jobs](/video/Book-绘本/what_can_she_be)  <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[Song\] Let's Sing One Little Finger](/video/Song-儿歌/one_little_finger)  <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Book\] Dream Jobs](/video/Book-绘本/what_can_she_be)
+* [\[Song\] Let's Sing One Little Finger](/video/Song-儿歌/one_little_finger)
 * [\[Song\] Let's Sing Down In The Deep Blue Sea](/video/Song-儿歌/down_in_the_deep_sea)
 * [\[Book\] The Very Hungry Caterpillar (Part 2)](/video/Book-绘本/the_very_hungry_caterpillar_2)
 * [\[Book\] The Very Hungry Caterpillar (Part 1)](/video/Book-绘本/the_very_hungry_caterpillar)
