@@ -4,6 +4,10 @@ sidebar_label: 认识26个字母
 pagination_label: 认识26个字母
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 字母是学习英语的基础，这期视频带孩子一起跳超级有趣的字母操来学习26个大写字母！
@@ -22,3 +26,21 @@ pagination_label: 认识26个字母
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/alphabet_dance.mp3");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/alphabet_dance.mp3" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>
