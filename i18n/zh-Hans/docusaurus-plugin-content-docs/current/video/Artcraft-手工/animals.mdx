@@ -4,6 +4,9 @@ sidebar_label: 经典动物涂色
 pagination_label: 经典动物涂色
 ---
 
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频带孩子们一起边涂色边复习巩固之前讲过的经典绘本 Brown Bear, Brown Bear, What Do You See?
@@ -24,3 +27,23 @@ pagination_label: 经典动物涂色
   width="640"
   height="360"
 ></iframe>
+
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/animals.png");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<img
+  src="/files/animals.png"
+  alt="color_number"
+  width="640"
+  height="360"
+/>

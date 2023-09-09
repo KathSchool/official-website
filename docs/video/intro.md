@@ -17,7 +17,8 @@ Click on the **materials** in the right navigation or scroll down below the vide
 
 
 ## Table of Contents
-
+* [\[Song\]Phonics Song](/video/Song-儿歌/phonics_song) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Song\]Alphabet Dance](/video/Song-儿歌/alphabet_dance) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Artcraft\]The Very Hungry Caterpillar](/video/Artcraft-手工/the_very_hungry_caterpillar) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Song\]Do You Like Broccoli Ice-Cream](/video/Song-儿歌/do_you_like_broccoli_ice-cream) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Song\] Let's Sing Walking Walking](/video/Song-儿歌/walking_walking) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>

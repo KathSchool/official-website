@@ -1,3 +1,7 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
+
 # Color animals
 
 ## Color Grandpa Karl's Classic Animals
@@ -18,3 +22,22 @@ Follow [Kath School](https://space.bilibili.com/20797715) to enlighten your chil
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/animals.png");
+  }}
+>
+  download
+</Button>
+<br />
+<img
+  src="/files/animals.png"
+  alt="color_number"
+  width="640"
+  height="360"
+/>

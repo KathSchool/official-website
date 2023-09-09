@@ -1,3 +1,7 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
+
 # Color by Numbers
 
 ## Activity Class: Color by Numbers
@@ -19,3 +23,22 @@ Follow [Kath School](https://space.bilibili.com/20797715) and join Teacher Kathe
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/color_number.jpeg");
+  }}
+>
+  download
+</Button>
+<br />
+<img
+  src="/files/color_number.jpeg"
+  alt="color_number"
+  width="640"
+  height="360"
+/>
