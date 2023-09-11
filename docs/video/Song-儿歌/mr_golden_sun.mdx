@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Mr. Golden Sun
 
 ## Haven't Heard This Nursery Rhyme Yet? Sing and Dance to SSS Classic Nursery Rhyme - Mr. Golden Sun
@@ -5,6 +8,7 @@
 In this video, we bring children the classic nursery rhyme "Mr. Golden Sun" from SSS (Super Simple Songs) about the weather.
 This lively and cheerful song is perfect for young children to sing and dance along to. Learning English oral expressions through song lyrics is the happiest way!
 There are many more songs about the weather topic, and Teacher Katherine will continue to update them!
+
 Follow [Kath School](https://space.bilibili.com/20797715), and let's bring joyful English enlightenment to your children!
 
 <iframe
@@ -17,3 +21,21 @@ Follow [Kath School](https://space.bilibili.com/20797715), and let's bring joyfu
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/mr_sun.mp3");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/mr_sun.mp3" controls>
+  The browser doesn't support
+</audio>

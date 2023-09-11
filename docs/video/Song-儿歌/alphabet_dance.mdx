@@ -4,6 +4,9 @@ sidebar_label: Getting to Know the 26 Letters
 pagination_label: Getting to Know the 26 Letters
 ---
 
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## Introduction
 
 Alphabets are the foundation of learning English, and in this video, we'll have a super fun alphabet dance to help kids learn the 26 uppercase letters! 
@@ -22,3 +25,21 @@ Follow [KathSchool](https://space.bilibili.com/20797715) for a joyful English le
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/alphabet_dance.mp3");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/alphabet_dance.mp3" controls>
+  The browser doesn't support
+</audio>

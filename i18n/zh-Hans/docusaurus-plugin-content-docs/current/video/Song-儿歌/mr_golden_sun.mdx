@@ -4,11 +4,16 @@ sidebar_label: 经典儿歌 Mr. Golden Sun
 pagination_label: 经典儿歌 Mr. Golden Sun
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频为孩子们带来 SSS（Super Simple Song）经典的关于天气的儿歌 Mr. Golden Sun（太阳先生）。
 这首歌曲轻快活泼，很适合低龄儿童唱跳~ 通过记歌词来学习英语口语表达是最开心的方式了！
 关于 Weather（天气）话题的歌曲还有很多，Katherine 老师会持续更新哦~
+
 关注[开森英语启蒙](https://space.bilibili.com/20797715)，带孩子们快乐启蒙英语~
 
 ## 视频
@@ -23,3 +28,21 @@ pagination_label: 经典儿歌 Mr. Golden Sun
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/mr_sun.mp3");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/mr_sun.mp3" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

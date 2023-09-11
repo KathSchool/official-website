@@ -4,11 +4,16 @@ sidebar_label: 今天是周几
 pagination_label: 今天是周几
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这一期视频为孩子们带来最常用的日常话题：Days of the week（星期）
 相信孩子们通过唱歌、舞动，可以轻松的习得一周七天的英文表达！
 快来一起唱吧！
+
 关注[开森英语启蒙](https://space.bilibili.com/20797715)，带孩子们快乐启蒙英语~
 
 ## 视频
@@ -23,3 +28,21 @@ pagination_label: 今天是周几
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/the_7_days_of_the_week_song.m4a");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/the_7_days_of_the_week_song.m4a" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Walking In The Forest
 
 ## Singing a Nursery Rhyme While Walking In The Forest
@@ -5,6 +8,7 @@
 Hi~ In this video, we have the second part of the "Walking" nursery rhyme series: "Walking In The Forest."
 Key words: forest, deer, owl, rabbit, woodpecker, skunk, walk, stomp, jump, skip.
 For those who have watched the first part "Walking In The Jungle," you can continue learning new conversational expressions in this familiar melody!
+
 Follow [Kath School](https://space.bilibili.com/20797715) to bring joy to your child's English learning journey!
 
 <iframe
@@ -17,3 +21,21 @@ Follow [Kath School](https://space.bilibili.com/20797715) to bring joy to your c
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/walking_In_the_forest.mp3");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/walking_In_the_forest.mp3" controls>
+  The browser doesn't support
+</audio>

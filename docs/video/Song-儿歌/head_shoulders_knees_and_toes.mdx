@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Head Shoulders Knees and Toes
 
 ## Classic English Children's Song | Head Shoulders Knees and Toes | Learning Body Parts
@@ -18,3 +21,21 @@ Follow [Kath School](https://space.bilibili.com/20797715), and bring joy and enl
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/head_shoulders_knees_and_toes.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/head_shoulders_knees_and_toes.m4a" controls>
+  The browser doesn't support
+</audio>

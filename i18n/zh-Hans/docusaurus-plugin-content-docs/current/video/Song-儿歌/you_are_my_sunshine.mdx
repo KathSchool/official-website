@@ -4,6 +4,9 @@ sidebar_label: 一起唱 You Are My Sunshine
 pagination_label: 一起唱 You Are My Sunshine
 ---
 
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频带着小朋友们学唱英文儿歌 “You Are My Sunshine”。
@@ -23,3 +26,21 @@ pagination_label: 一起唱 You Are My Sunshine
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/you_are_my_sunshine.m4a");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/you_are_my_sunshine.m4a" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

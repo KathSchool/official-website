@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # If You're Happy
 
 ## English Nursery Rhyme Tutorial: If You're Happy
@@ -6,6 +9,7 @@ In this video, we bring children the classic and widely known nursery rhyme "If 
 We use the version from Super Simple Songs, with simple and catchy lyrics.
 It's perfect for children learning English!
 Teacher Katherine not only teaches the lyrics but also adds fun gestures and movements to the song.
+
 Follow [Kath School](https://space.bilibili.com/20797715), and parents, let's dance along with your children!
 
 <iframe
@@ -18,3 +22,21 @@ Follow [Kath School](https://space.bilibili.com/20797715), and parents, let's da
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/if_you_are_happy.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/if_you_are_happy.m4a" controls>
+  The browser doesn't support
+</audio>

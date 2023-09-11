@@ -4,11 +4,16 @@ sidebar_label: 从头到脚
 pagination_label: 从头到脚
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频带孩子们一起来唱跳经典英文绘本 From Head to Toe ，歌曲和舞蹈的方式可以加深孩子们对绘本的印象以及喜爱程度。
 希望通过上期的绘本朗读以及这期的歌舞，孩子们能够输出绘本中的重复语句：“ Can you do it？/ I can do it！” 以及相关的动物和身体部位的词汇。
 想让宝宝们轻松的读出这本绘本，就带他们多唱跳两遍这首歌曲吧！
+
 关注[开森英语启蒙](https://space.bilibili.com/20797715), 带孩子们快乐启蒙英语~
 
 ## 视频
@@ -23,3 +28,21 @@ pagination_label: 从头到脚
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/from_head_to_toe.mp3");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/from_head_to_toe.mp3" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

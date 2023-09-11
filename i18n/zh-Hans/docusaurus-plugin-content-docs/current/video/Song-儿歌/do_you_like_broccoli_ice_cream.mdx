@@ -1,0 +1,48 @@
+---
+title: Do You Like Broccoli Ice-Cream？
+sidebar_label: 食物主题的经典儿歌
+pagination_label: 食物主题的经典儿歌
+---
+
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
+## 介绍
+
+这期视频为孩子们带来 SSS 食物主题的经典儿歌 Do You Like Broccoli Ice-Cream？
+重点句型：Do you like...? / Yes， I do./ No, I don't.
+重点词汇：broccoli（西兰花），icecream（冰淇淋），popcorn（爆米花），pizza（披萨），donut（甜甜圈），juice（果汁），banana（香蕉），soup（汤）。
+
+关注[开森英语启蒙](https://space.bilibili.com/20797715)，带孩子们快乐启蒙英语哦~
+
+## 视频
+
+<iframe
+  src="https://player.bilibili.com/player.html?bvid=BV1WF411o78N&cid=1&page=1"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="640"
+  height="360"
+></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/do_you_like_broccoli_ice_cream.m4a");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/do_you_like_broccoli_ice_cream.m4a" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

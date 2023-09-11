@@ -4,6 +4,10 @@ sidebar_label: 唱儿歌学26个字母的发音
 pagination_label: 唱儿歌学26个字母的发音
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频接着上期内容，为孩子们带来非常经典的自然拼读儿歌 Phonics Song。
@@ -23,3 +27,21 @@ pagination_label: 唱儿歌学26个字母的发音
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/phonics_song.mp3");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/phonics_song.mp3" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

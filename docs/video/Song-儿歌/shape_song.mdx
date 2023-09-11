@@ -1,9 +1,13 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Shape Song
 
 ## English Nursery Rhyme "Shape Song" | English Enlightenment Teaching
 
 Hi~ This video, continuing from the theme of shapes in the picture book "Shapes with Little Fish," brings you the English nursery rhyme "Shape Song."
 Children can learn English vocabulary and sentences about shapes in a relaxed and enjoyable music setting.
+
 Parents, please follow [Kath School](https://space.bilibili.com/20797715). Teacher Katherine will continue to make English learning fun for children!
 
 <iframe
@@ -16,3 +20,21 @@ Parents, please follow [Kath School](https://space.bilibili.com/20797715). Teach
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/shapes_song.mp3");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/shapes_song.mp3" controls>
+  The browser doesn't support
+</audio>

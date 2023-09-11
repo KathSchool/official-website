@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Open Shut Them
 
 ## [English Nursery Rhyme Teaching] Open Shut Them | Super Simple Song Classic Nursery Rhyme | Teaching Antonyms
@@ -7,6 +10,7 @@ Katherine, the teacher, has also recorded a picture book teaching video on the t
 [Opposites Picture Book Teaching](https://www.bilibili.com/video/BV1fY4y1S7RY/?spm_id_from=333.999.0.0&vd_source=078ea57a25ec7de093a9df58a55bc784)
 
 The beautiful melody of the nursery rhyme combined with fun body movements is loved by children. So, parents, hurry up and sing nursery rhymes with your little ones to learn English!
+
 Follow [Kath School](https://space.bilibili.com/20797715), and let's embark on a joyful English enlightenment journey with your children!
 
 <iframe
@@ -19,3 +23,21 @@ Follow [Kath School](https://space.bilibili.com/20797715), and let's embark on a
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/open_shut_them.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/open_shut_them.m4a" controls>
+  The browser doesn't support
+</audio>

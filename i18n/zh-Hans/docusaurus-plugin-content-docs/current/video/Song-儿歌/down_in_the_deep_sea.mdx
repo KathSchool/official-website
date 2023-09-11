@@ -4,6 +4,10 @@ sidebar_label: 一起唱 Down In The Deep Blue Sea
 pagination_label: 一起唱 Down In The Deep Blue Sea
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 应宝爸宝妈的需求，这期视频为孩子带来动物系列儿歌的海洋动物篇！
@@ -25,3 +29,21 @@ pagination_label: 一起唱 Down In The Deep Blue Sea
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/down_in_the_deep_blue_sea.mp3");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/down_in_the_deep_blue_sea.mp3" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

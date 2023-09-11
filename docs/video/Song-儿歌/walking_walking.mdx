@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ---
 title: Walking Walking
 sidebar_label: Let's Sing Walking Walking
@@ -8,6 +11,7 @@ pagination_label: Let's Sing Walking Walking
 
 In this video, we bring you the classic nursery rhyme "Walking Walking". Let's sing the nursery rhyme and learn action vocabulary together!
 Key vocabulary: walking, hop, running, stop, tiptoe, jump, swimming, sleep.
+
 Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English enlightenment journey with your children!
 
 ## Video
@@ -22,3 +26,21 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/walking_walking.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/walking_walking.m4a" controls>
+  The browser doesn't support
+</audio>

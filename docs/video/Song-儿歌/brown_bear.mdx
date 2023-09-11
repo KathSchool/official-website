@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Brown Bear, Brown Bear, What Do You See?
 
 ## Sing and Dance with the Classic English Picture Book! Brown Bear, Brown Bear, What Do You See?
@@ -5,6 +8,7 @@
 Singing and dancing with storybooks is so much fun!
 In this video, we bring children the song version of the classic picture book "Brown Bear, Brown Bear, What Do You See?" by Grandpa Karl!
 Children can review and revisit the storybook while singing and dancing along.
+
 Follow [Kath School](https://space.bilibili.com/20797715) for joyful English enlightenment with your children!
 
 <iframe
@@ -17,3 +21,21 @@ Follow [Kath School](https://space.bilibili.com/20797715) for joyful English enl
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/brown_bear_song.mp3");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/brown_bear_song.mp3" controls>
+  The browser doesn't support
+</audio>

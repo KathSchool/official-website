@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # You Are My Sunshine
 
 ## English Nursery Rhyme Teaching: You Are My Sunshine
@@ -5,6 +8,7 @@
 In this video, we teach children to sing the English nursery rhyme "You Are My Sunshine."
 The lyrics of this song are simple, and the melody is beautiful.
 We believe that children will easily and quickly pick it up.
+
 Follow [Kath School](https://space.bilibili.com/20797715) and join Katherine in the fun of learning English!
 
 <iframe
@@ -17,3 +21,21 @@ Follow [Kath School](https://space.bilibili.com/20797715) and join Katherine in 
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/you_are_my_sunshine.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/you_are_my_sunshine.m4a" controls>
+  The browser doesn't support
+</audio>

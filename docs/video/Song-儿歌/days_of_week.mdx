@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Days of the Week
 
 ## Learn the English Expressions for the Seven Days of the Week through Nursery Rhymes
@@ -5,6 +8,7 @@
 In this video, we bring children the most commonly used daily topic: Days of the week (星期).
 We believe that children can easily learn the English expressions for the seven days of the week through singing and dancing!
 Let's sing together!
+
 Follow [Kath School](https://space.bilibili.com/20797715) for joyful English enlightenment with your children!
 
 <iframe
@@ -17,3 +21,21 @@ Follow [Kath School](https://space.bilibili.com/20797715) for joyful English enl
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/the_7_days_of_the_week_song.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/the_7_days_of_the_week_song.m4a" controls>
+  The browser doesn't support
+</audio>

@@ -4,12 +4,17 @@ sidebar_label: 丛林散步，会遇到什么动物
 pagination_label: 丛林散步，会遇到什么动物
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频带孩子们到茂密的热带丛林中去冒险！
 一首旋律优美的歌曲 “Walking In the Jungle” 送给大家。情境的创设会为孩子们留下深刻的印象。
-本首歌曲重点词汇：frog， monkey， toucan， tiger。
-重点语句：We're not afraid。
+本首歌曲重点词汇：frog， monkey， toucan， tiger.
+重点语句：We're not afraid.
+
 关注[开森英语启蒙](https://space.bilibili.com/20797715)，带孩子们快乐启蒙英语哦~
 
 ## 视频
@@ -24,3 +29,21 @@ pagination_label: 丛林散步，会遇到什么动物
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/walking_In_the_jungle.mp3");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/walking_In_the_jungle.mp3" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

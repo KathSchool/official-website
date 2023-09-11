@@ -4,6 +4,10 @@ sidebar_label: 一起唱 Walking Walking
 pagination_label: 一起唱 Walking Walking
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频为孩子们带来经典儿歌 “Walking Walking”。一起来唱儿歌学习动作的词汇吧~
@@ -23,3 +27,21 @@ pagination_label: 一起唱 Walking Walking
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/walking_walking.m4a");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/walking_walking.m4a" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

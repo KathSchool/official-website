@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # How's the Weather
 
 ## Singing an English Children's Song and Learning About the Weather | How's the Weather | SSS Song
@@ -18,3 +21,21 @@ Follow [Kath School](https://space.bilibili.com/20797715), and bring joy and enl
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/how_is_the_weather.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/how_is_the_weather.m4a" controls>
+  The browser doesn't support
+</audio>

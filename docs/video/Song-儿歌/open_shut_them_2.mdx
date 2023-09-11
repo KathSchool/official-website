@@ -1,9 +1,13 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Open Shut Them 2
 
 ## [English Enlightenment Nursery Rhyme] Open Shut Them 2 | Teaching Antonyms | Super Simple Song
 
 In this video, we bring children the familiar melody of SSS's classic English nursery rhyme "Open Shut Them 2."
 The tune is the same as the previous video, but the lyrics are different, allowing children to learn more English antonyms through singing.
+
 Follow [Kath School](https://space.bilibili.com/20797715), and let's embark on an English enlightenment journey with your children!
 
 <iframe
@@ -16,3 +20,21 @@ Follow [Kath School](https://space.bilibili.com/20797715), and let's embark on a
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/open_shut_them_2.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/open_shut_them_2.m4a" controls>
+  The browser doesn't support
+</audio>

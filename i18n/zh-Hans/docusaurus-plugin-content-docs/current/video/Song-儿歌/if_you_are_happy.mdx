@@ -4,12 +4,17 @@ sidebar_label: 幸福拍手歌
 pagination_label: 幸福拍手歌
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频为孩子们带来经典流传的幸福拍手歌，英文版：If You're Happy。
 采用 Super Simple Song 的版本，歌词简单顺口。
 非常适合英语启蒙的孩子们学唱！
 Katherine 老师不仅教学歌词还配合着肢体动作，非常有趣~
+
 关注[开森英语启蒙](https://space.bilibili.com/20797715), 宝爸宝妈们快带着孩子们一起来舞动吧！
 
 ## 视频
@@ -24,3 +29,21 @@ Katherine 老师不仅教学歌词还配合着肢体动作，非常有趣~
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/if_you_are_happy.m4a");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/if_you_are_happy.m4a" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

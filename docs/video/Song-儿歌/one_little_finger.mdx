@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ---
 title: One Little Finger
 sidebar_label: Let's Sing One Little Finger
@@ -9,6 +12,7 @@ pagination_label: Let's Sing One Little Finger
 In this video, we bring you the classic nursery rhyme "One Little Finger" by SSS.
 It's a song to learn the English expressions for body parts, with catchy lyrics and melody, perfect for little ones starting their English learning journey!
 Key vocabulary: finger, head, nose, chin, arm, leg, foot.
+
 Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English enlightenment journey with your children!
 
 ## Video
@@ -23,3 +27,21 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/one_little_finger.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/one_little_finger.m4a" controls>
+  The browser doesn't support
+</audio>

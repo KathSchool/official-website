@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # I can sing a rainbow
 
 ## [English Nursery Rhyme Tutorial] I Can Sing a Rainbow
@@ -5,7 +8,8 @@
 In this video, following the color theme, we bring children the English nursery rhyme "I Can Sing a Rainbow."
 "I Can Sing a Rainbow" has a slow and beautiful rhythm, making it perfect for children to learn and sing along. While singing, they can also recognize or review color words.
 It's very suitable for English enlightenment for the little ones!
-Parents, quickly follow [Kath School](https://space.bilibili.com/20797715), where Teacher Katherine will bring joyful English learning to your children!
+
+Parents, follow [Kath School](https://space.bilibili.com/20797715), where Teacher Katherine will bring joyful English learning to your children!
 
 <iframe
   src="https://player.bilibili.com/player.html?bvid=BV11y4y1o7JD&cid=1&page=1"
@@ -17,3 +21,21 @@ Parents, quickly follow [Kath School](https://space.bilibili.com/20797715), wher
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/sing_a_rainbow.m4a");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/sing_a_rainbow.m4a" controls>
+  The browser doesn't support
+</audio>

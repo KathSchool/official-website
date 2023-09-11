@@ -1,3 +1,6 @@
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 # Walking In the Jungle
 
 ## Walking in the Jungle, What Animals Will You Encounter? Let's Sing an English Nursery Rhyme!
@@ -6,6 +9,7 @@ In this video, we take the children on an adventure into the dense tropical jung
 We have a beautiful melody for you, "Walking In the Jungle." The setting of the song will leave a lasting impression on the children.
 Key vocabulary in this song: frog, monkey, toucan, tiger.
 Key phrase: "We're not afraid."
+
 Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English learning experience for your child!
 
 <iframe
@@ -18,3 +22,21 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English l
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/walking_In_the_jungle.mp3");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/walking_In_the_jungle.mp3" controls>
+  The browser doesn't support
+</audio>

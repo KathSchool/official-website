@@ -4,6 +4,9 @@ sidebar_label: 日月转盘手工
 pagination_label: 日月转盘手工
 ---
 
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频为大家带来 Opposites 主题的亲子活动课，制作昼夜转盘手工。
@@ -26,8 +29,15 @@ pagination_label: 日月转盘手工
 
 ## 资料
 
-<a href="/files/opposite.png" download>
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/img/opposite.png");
+  }}
+>
   下载文件
-</a>
+</Button>
+
 <br />
-<img src="/files/opposite.png" alt="color_number" width="640" height="360" />
+<img src="/files/img/opposite.png" alt="color_number" width="640" height="360" />
