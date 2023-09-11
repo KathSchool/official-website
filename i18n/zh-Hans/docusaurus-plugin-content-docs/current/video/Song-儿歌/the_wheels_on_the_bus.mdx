@@ -4,6 +4,10 @@ sidebar_label: 一起唱 The Wheels On the Bus
 pagination_label: 一起唱 The Wheels On the Bus
 ---
 
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
 ## 介绍
 
 这期视频带孩子们一起唱跳经典儿歌 The Wheels On the Bus。
@@ -23,3 +27,21 @@ pagination_label: 一起唱 The Wheels On the Bus
   width="640"
   height="360"
 ></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/wheels_on_the_bus_slow.m4a");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/wheels_on_the_bus_slow.m4a" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

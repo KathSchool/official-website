@@ -23,3 +23,21 @@ Follow [Kath School](https://space.bilibili.com/20797715), and bring joy and enl
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/mothers_day.mp3");
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/mothers_day.mp3" controls>
+  The browser doesn't support
+</audio>

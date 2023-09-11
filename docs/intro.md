@@ -32,7 +32,7 @@ At Kath School, we not only develop children's language abilities but also focus
 
 ### Ms.Katherine
 <img
-  src="/photo/resume_photo.png"
+  src="/photo/resume_photo.jpg"
   alt="Ms.katherine"
   style={{borderRadius: 100, overflow: 'hidden', width: 200, height: 200}}
 />
