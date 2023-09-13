@@ -17,11 +17,12 @@ Click on the **materials** in the right navigation or scroll down below the vide
 
 
 ## Table of Contents
+* [\[Song\]The Itsy Bitsy Spider](/video/Song-儿歌/the_Itsy_bitsy_spider) <Badge style={{marginLeft: '20px'}} 
 * [\[Song\]Phonics Song](/video/Song-儿歌/phonics_song) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Song\]Alphabet Dance](/video/Song-儿歌/alphabet_dance) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[Artcraft\]The Very Hungry Caterpillar](/video/Artcraft-手工/the_very_hungry_caterpillar) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[Song\]Do You Like Broccoli Ice-Cream](/video/Song-儿歌/do_you_like_broccoli_ice-cream) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[Song\] Let's Sing Walking Walking](/video/Song-儿歌/walking_walking) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Artcraft\]The Very Hungry Caterpillar](/video/Artcraft-手工/the_very_hungry_caterpillar)
+* [\[Song\]Do You Like Broccoli Ice-Cream](/video/Song-儿歌/do_you_like_broccoli_ice-cream)
+* [\[Song\] Let's Sing Walking Walking](/video/Song-儿歌/walking_walking)
 * [\[Book\] Dream Jobs](/video/Book-绘本/what_can_she_be)
 * [\[Song\] Let's Sing One Little Finger](/video/Song-儿歌/one_little_finger)
 * [\[Song\] Let's Sing Down In The Deep Blue Sea](/video/Song-儿歌/down_in_the_deep_sea)

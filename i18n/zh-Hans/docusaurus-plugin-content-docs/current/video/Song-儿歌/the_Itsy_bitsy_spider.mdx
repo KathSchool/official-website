@@ -1,0 +1,47 @@
+---
+title: 小小的蜘蛛 | The Itsy Bitsy Spider
+sidebar_label: 小小的蜘蛛
+pagination_label: 小小的蜘蛛
+---
+
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
+## 介绍
+
+Hi这期视频带孩子们一起唱SSS超级经典的儿歌 “The Itsy Bitsy Spider”。
+和 Katherine 老师一起学习这首童谣的歌词和动作吧。
+
+宝爸宝妈们请关注[开森英语启蒙](https://space.bilibili.com/20797715), Katherine 老师将持续带孩子们快乐学英语！
+
+## 视频
+
+<iframe
+  src="https://player.bilibili.com/player.html?bvid=BV1f94y1W7ET&cid=1&page=1"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="640"
+  height="360"
+></iframe>
+
+## 资料
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/itsy_bitsy_spider_song.mp3");
+  }}
+>
+  下载文件
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/itsy_bitsy_spider_song.mp3" controls>
+  浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
+</audio>

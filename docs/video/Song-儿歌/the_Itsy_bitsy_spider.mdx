@@ -1,0 +1,45 @@
+---
+title: Itsy Bitsy Spider
+sidebar_label: Itsy Bitsy Spider
+pagination_label: Itsy Bitsy Spider
+---
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
+## Introduction
+
+Hi, in this video, we'll sing the super classic children's song "The Itsy Bitsy Spider" together. Join Teacher Katherine to learn the lyrics and actions of this nursery rhyme.
+
+Parents, please follow [KathSchool](https://space.bilibili.com/20797715) for more fun English learning activities for your kids!
+
+## Video
+
+<iframe
+  src="https://player.bilibili.com/player.html?bvid=BV1f94y1W7ET&cid=1&page=1"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="640"
+  height="360"
+></iframe>
+
+## Resources
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/itsy_bitsy_spider_song.mp3");
+  }}
+>
+  Download File
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/itsy_bitsy_spider_song.mp3" controls>
+  Audio playback is not supported in your browser. Please switch to a different browser or enable audio permissions in your browser's player.
+</audio>
