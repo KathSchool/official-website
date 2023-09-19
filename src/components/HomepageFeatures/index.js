@@ -8,6 +8,7 @@ function Feature({
   description,
   onmouseenter,
   onmouseleave,
+  onClick,
   cls,
 }) {
   return (
@@ -16,8 +17,9 @@ function Feature({
         <img
           className={styles.featureSvg}
           src={path}
-          onMouseEnter={onmouseenter}
-          onMouseLeave={onmouseleave}
+          // onMouseEnter={onmouseenter}
+          // onMouseLeave={onmouseleave}
+          onClick={onClick}
         />
       </div>
       <div className="text--center padding-horiz--md">
