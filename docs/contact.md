@@ -21,4 +21,4 @@ If you have experience in the education industry or are a related professional, 
 
 #### Wechat kathschool
 
-<img src="/img/wechat_qr.jpg" alt="QR Code" width="120" />
+<!-- <img src="/img/wechat_qr.jpg" alt="QR Code" width="120" /> -->

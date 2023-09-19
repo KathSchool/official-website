@@ -17,7 +17,7 @@ Click on the **materials** in the right navigation or scroll down below the vide
 
 
 ## Table of Contents
-* [\[Song\]The Itsy Bitsy Spider](/video/Song-儿歌/the_Itsy_bitsy_spider) <Badge style={{marginLeft: '20px'}} 
+* [\[Song\]The Itsy Bitsy Spider](/video/Song-儿歌/the_Itsy_bitsy_spider) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Song\]Phonics Song](/video/Song-儿歌/phonics_song) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Song\]Alphabet Dance](/video/Song-儿歌/alphabet_dance) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
 * [\[Artcraft\]The Very Hungry Caterpillar](/video/Artcraft-手工/the_very_hungry_caterpillar)
@@ -65,4 +65,3 @@ Click on the **materials** in the right navigation or scroll down below the vide
 * [\[Song\] Let's Sing You Are My Sunshine](/video/Song-儿歌/you_are_my_sunshine)
 * [\[Artcraft\] Rabbit Fu Craft](/video/Artcraft-手工/rabbit_fu)
 * [\[Book\] Chinese Zodiac Contest](/video/Book-绘本/chinese_zodiac)
-```

@@ -21,4 +21,4 @@ sidebar_position: 0
 
 #### 微信 kathschool
 
-<img src="/img/wechat_qr.jpg" alt="QR Code" width="120" />
+<!-- <img src="/img/wechat_qr.jpg" alt="QR Code" width="120" /> -->
