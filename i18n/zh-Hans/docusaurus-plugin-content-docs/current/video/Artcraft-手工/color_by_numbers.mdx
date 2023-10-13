@@ -6,7 +6,7 @@ pagination_label: 数字涂色
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
-
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -35,14 +35,14 @@ import { downloadStaticResource } from "/src/tools/download.js";
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/img/color_number.jpeg");
+    downloadStaticResource(`${cos_path_prefix}/files/img/color_number.jpeg`);
   }}
 >
   下载文件
 </Button>
 <br />
 <img
-  src="/files/img/color_number.jpeg"
+  src={`${cos_path_prefix}/files/img/color_number.jpeg`}
   alt="color_number"
   width="640"
   height="360"

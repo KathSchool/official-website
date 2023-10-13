@@ -7,6 +7,7 @@ pagination_label: 小小的蜘蛛
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -34,7 +35,7 @@ Hi这期视频带孩子们一起唱SSS超级经典的儿歌 “The Itsy Bitsy Sp
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/itsy_bitsy_spider_song.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/itsy_bitsy_spider_song.mp3`);
   }}
 >
   下载文件
@@ -42,6 +43,6 @@ Hi这期视频带孩子们一起唱SSS超级经典的儿歌 “The Itsy Bitsy Sp
 <br />
 <br />
 
-<audio src="/files/music/itsy_bitsy_spider_song.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/itsy_bitsy_spider_song.mp3`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>

@@ -7,6 +7,7 @@ pagination_label: 反义词之歌(上)
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -38,7 +39,7 @@ https://www.bilibili.com/video/BV1fY4y1S7RY/?spm_id_from=333.999.0.0&vd_source=0
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/open_shut_them.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/open_shut_them.m4a`);
   }}
 >
   下载文件
@@ -46,6 +47,6 @@ https://www.bilibili.com/video/BV1fY4y1S7RY/?spm_id_from=333.999.0.0&vd_source=0
 <br />
 <br />
 
-<audio src="/files/music/open_shut_them.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/open_shut_them.m4a`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>

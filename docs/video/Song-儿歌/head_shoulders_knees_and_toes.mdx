@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 # Head Shoulders Knees and Toes
 
@@ -28,7 +29,7 @@ Follow [Kath School](https://space.bilibili.com/20797715), and bring joy and enl
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/head_shoulders_knees_and_toes.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/head_shoulders_knees_and_toes.m4a`);
   }}
 >
   download
@@ -36,6 +37,6 @@ Follow [Kath School](https://space.bilibili.com/20797715), and bring joy and enl
 <br />
 <br />
 
-<audio src="/files/music/head_shoulders_knees_and_toes.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/head_shoulders_knees_and_toes.m4a`} controls>
   The browser doesn't support
 </audio>

@@ -7,6 +7,7 @@ pagination_label: 唱儿歌学26个字母的发音
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -34,7 +35,7 @@ import { downloadStaticResource } from "/src/tools/download.js";
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/phonics_song.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/phonics_song.mp3`);
   }}
 >
   下载文件
@@ -42,6 +43,6 @@ import { downloadStaticResource } from "/src/tools/download.js";
 <br />
 <br />
 
-<audio src="/files/music/phonics_song.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/phonics_song.mp3`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>

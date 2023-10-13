@@ -7,6 +7,7 @@ pagination_label: 我们身上有什么
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -37,7 +38,7 @@ import { downloadStaticResource } from "/src/tools/download.js";
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/head_shoulders_knees_and_toes.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/head_shoulders_knees_and_toes.m4a`);
   }}
 >
   下载文件
@@ -45,6 +46,6 @@ import { downloadStaticResource } from "/src/tools/download.js";
 <br />
 <br />
 
-<audio src="/files/music/head_shoulders_knees_and_toes.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/head_shoulders_knees_and_toes.m4a`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>

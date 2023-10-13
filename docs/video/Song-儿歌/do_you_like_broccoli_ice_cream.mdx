@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ---
 title: Do You Like Broccoli Ice Cream?
@@ -27,3 +28,21 @@ Follow [Kath school](https://space.bilibili.com/20797715) for joyful English enl
   width="640"
   height="360"
 ></iframe>
+
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource(`${cos_path_prefix}/files/music/do_you_like_broccoli_ice_cream.m4a`);
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src={`${cos_path_prefix}/files/music/do_you_like_broccoli_ice_cream.m4a`} controls>
+  The browser doesn't support
+</audio>

@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 # Row Row Row Your Boat
 
@@ -26,7 +27,7 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/row_your_boat_fast.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/row_your_boat_fast.mp3`);
   }}
 >
   download
@@ -34,6 +35,6 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
 <br />
 <br />
 
-<audio src="/files/music/row_your_boat_fast.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/row_your_boat_fast.mp3`} controls>
   The browser doesn't support
 </audio>

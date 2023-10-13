@@ -6,6 +6,7 @@ pagination_label: Itsy Bitsy Spider
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## Introduction
 
@@ -32,7 +33,7 @@ Parents, please follow [KathSchool](https://space.bilibili.com/20797715) for mor
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/itsy_bitsy_spider_song.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/itsy_bitsy_spider_song.mp3`);
   }}
 >
   Download File
@@ -40,6 +41,6 @@ Parents, please follow [KathSchool](https://space.bilibili.com/20797715) for mor
 <br />
 <br />
 
-<audio src="/files/music/itsy_bitsy_spider_song.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/itsy_bitsy_spider_song.mp3`} controls>
   Audio playback is not supported in your browser. Please switch to a different browser or enable audio permissions in your browser's player.
 </audio>

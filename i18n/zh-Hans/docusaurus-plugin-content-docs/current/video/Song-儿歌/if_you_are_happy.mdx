@@ -7,6 +7,7 @@ pagination_label: 幸福拍手歌
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -36,7 +37,7 @@ Katherine 老师不仅教学歌词还配合着肢体动作，非常有趣~
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/if_you_are_happy.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/if_you_are_happy.m4a`);
   }}
 >
   下载文件
@@ -44,6 +45,6 @@ Katherine 老师不仅教学歌词还配合着肢体动作，非常有趣~
 <br />
 <br />
 
-<audio src="/files/music/if_you_are_happy.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/if_you_are_happy.m4a`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>

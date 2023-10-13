@@ -6,6 +6,7 @@ pagination_label: Getting to Know the 26 Letters
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## Introduction
 
@@ -32,7 +33,7 @@ Follow [KathSchool](https://space.bilibili.com/20797715) for a joyful English le
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/alphabet_dance.mp3");
+    downloadStaticResource(`${cos_path_prefix}/static/files/music/alphabet_dance.mp3`);
   }}
 >
   download
@@ -40,6 +41,20 @@ Follow [KathSchool](https://space.bilibili.com/20797715) for a joyful English le
 <br />
 <br />
 
-<audio src="/files/music/alphabet_dance.mp3" controls>
+## Assets
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource(`${cos_path_prefix}/files/music/alphabet_dance.mp3`);
+  }}
+>
+  download
+</Button>
+<br />
+<br />
+
+<audio src={`${cos_path_prefix}/files/music/alphabet_dance.mp3`} controls>
   The browser doesn't support
 </audio>

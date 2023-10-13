@@ -7,6 +7,7 @@ pagination_label: 我会唱支彩虹歌
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -35,7 +36,7 @@ I can sing a rainbow 这首歌，节奏缓慢、旋律优美，很适合孩子�
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/sing_a_rainbow.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/sing_a_rainbow.m4a`);
   }}
 >
   下载文件
@@ -43,6 +44,6 @@ I can sing a rainbow 这首歌，节奏缓慢、旋律优美，很适合孩子�
 <br />
 <br />
 
-<audio src="/files/music/sing_a_rainbow.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/sing_a_rainbow.m4a`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>

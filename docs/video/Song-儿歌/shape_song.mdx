@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 # Shape Song
 
@@ -27,7 +28,7 @@ Parents, please follow [Kath School](https://space.bilibili.com/20797715). Teach
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/shapes_song.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/shapes_song.mp3`);
   }}
 >
   download
@@ -35,6 +36,6 @@ Parents, please follow [Kath School](https://space.bilibili.com/20797715). Teach
 <br />
 <br />
 
-<audio src="/files/music/shapes_song.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/shapes_song.mp3`} controls>
   The browser doesn't support
 </audio>

@@ -7,6 +7,7 @@ pagination_label: 形状之歌
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -34,7 +35,7 @@ Hi~这期视频接着绘本 Shapes with Little Fish 的形状主题，为孩子�
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/shapes_song.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/shapes_song.mp3`);
   }}
 >
   下载文件
@@ -42,6 +43,6 @@ Hi~这期视频接着绘本 Shapes with Little Fish 的形状主题，为孩子�
 <br />
 <br />
 
-<audio src="/files/music/shapes_song.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/shapes_song.mp3`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>

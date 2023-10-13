@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
-
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 # Color by Numbers
 
@@ -30,14 +30,14 @@ Follow [Kath School](https://space.bilibili.com/20797715) and join Teacher Kathe
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/img/color_number.jpeg");
+    downloadStaticResource(`${cos_path_prefix}/files/img/color_number.jpeg`);
   }}
 >
   download
 </Button>
 <br />
 <img
-  src="/files/img/color_number.jpeg"
+  src={`${cos_path_prefix}/files/img/color_number.jpeg`}
   alt="color_number"
   width="640"
   height="360"

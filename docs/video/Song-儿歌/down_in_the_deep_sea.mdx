@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ---
 title: Down In The Deep Blue Sea
@@ -34,7 +35,7 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/down_in_the_deep_blue_sea.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/down_in_the_deep_blue_sea.mp3`);
   }}
 >
   download
@@ -42,6 +43,6 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
 <br />
 <br />
 
-<audio src="/files/music/down_in_the_deep_blue_sea.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/down_in_the_deep_blue_sea.mp3`} controls>
   The browser doesn't support
 </audio>

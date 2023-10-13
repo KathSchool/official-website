@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ---
 title: Learning Alphabet Pronunciation Through Nursery Rhymes
@@ -32,7 +33,7 @@ Follow [KathSchool](https://space.bilibili.com/20797715) for a joyful English le
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/phonics_song.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/phonics_song.mp3`);
   }}
 >
   download
@@ -40,6 +41,6 @@ Follow [KathSchool](https://space.bilibili.com/20797715) for a joyful English le
 <br />
 <br />
 
-<audio src="/files/music/phonics_song.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/phonics_song.mp3`} controls>
   The browser doesn't support
 </audio>

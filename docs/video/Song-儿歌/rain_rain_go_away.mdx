@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 # Rain Rain Go Away
 
@@ -26,7 +27,7 @@ Follow [Kath School](https://space.bilibili.com/20797715) to embark on a joyful 
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/rain_rain_go_away.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/rain_rain_go_away.mp3`);
   }}
 >
   download
@@ -34,6 +35,6 @@ Follow [Kath School](https://space.bilibili.com/20797715) to embark on a joyful 
 <br />
 <br />
 
-<audio src="/files/music/rain_rain_go_away.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/rain_rain_go_away.mp3`} controls>
   The browser doesn't support
 </audio>

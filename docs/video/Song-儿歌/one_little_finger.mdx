@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ---
 title: One Little Finger
@@ -34,7 +35,7 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/one_little_finger.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/one_little_finger.m4a`);
   }}
 >
   download
@@ -42,6 +43,6 @@ Follow [Kath School](https://space.bilibili.com/20797715) for a joyful English e
 <br />
 <br />
 
-<audio src="/files/music/one_little_finger.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/one_little_finger.m4a`} controls>
   The browser doesn't support
 </audio>

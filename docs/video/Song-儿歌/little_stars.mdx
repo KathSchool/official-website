@@ -6,6 +6,7 @@ pagination_label: Twinkle Twinkle Little Star Nursery Rhyme Tutorial
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## Introduction
 
@@ -32,7 +33,7 @@ Follow [kathschool](https://space.bilibili.com/20797715) for a joyful English le
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/twinkle_twinkle_little_stars.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/twinkle_twinkle_little_stars.m4a`);
   }}
 >
   Download File
@@ -40,6 +41,6 @@ Follow [kathschool](https://space.bilibili.com/20797715) for a joyful English le
 <br />
 <br />
 
-<audio src="/files/music/twinkle_twinkle_little_stars.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/twinkle_twinkle_little_stars.m4a`} controls>
   Your browser does not support audio playback. Please switch browsers or enable audio permissions in your browser's player.
 </audio>

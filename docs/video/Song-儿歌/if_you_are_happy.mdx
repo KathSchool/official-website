@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 # If You're Happy
 
@@ -29,7 +30,7 @@ Follow [Kath School](https://space.bilibili.com/20797715), and parents, let's da
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/if_you_are_happy.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/if_you_are_happy.m4a`);
   }}
 >
   download
@@ -37,6 +38,6 @@ Follow [Kath School](https://space.bilibili.com/20797715), and parents, let's da
 <br />
 <br />
 
-<audio src="/files/music/if_you_are_happy.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/if_you_are_happy.m4a`} controls>
   The browser doesn't support
 </audio>

@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 # From Head to Toe
 
@@ -26,7 +27,7 @@ Follow [Kath School](https://space.bilibili.com/20797715) and join Katherine in 
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/from_head_to_toe.mp3");
+    downloadStaticResource(`${cos_path_prefix}/files/music/from_head_to_toe.mp3`);
   }}
 >
   download
@@ -34,6 +35,6 @@ Follow [Kath School](https://space.bilibili.com/20797715) and join Katherine in 
 <br />
 <br />
 
-<audio src="/files/music/from_head_to_toe.mp3" controls>
+<audio src={`${cos_path_prefix}/files/music/from_head_to_toe.mp3`} controls>
   The browser doesn't support
 </audio>

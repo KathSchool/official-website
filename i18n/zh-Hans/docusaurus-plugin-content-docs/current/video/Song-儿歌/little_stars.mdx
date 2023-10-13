@@ -6,6 +6,7 @@ pagination_label: 小星星儿歌教学
 
 import Button from "@mui/material/Button";
 import { downloadStaticResource } from "/src/tools/download.js";
+import { cos_path_prefix } from "/src/tools/variables.js";
 
 ## 介绍
 
@@ -33,7 +34,7 @@ Hi，宝爸宝妈们好，这期视频带小朋友们一起唱睡前经典儿歌
   variant="outlined"
   id="downloadButton"
   onClick={function () {
-    downloadStaticResource("/files/music/twinkle_twinkle_little_stars.m4a");
+    downloadStaticResource(`${cos_path_prefix}/files/music/twinkle_twinkle_little_stars.m4a`);
   }}
 >
   下载文件
@@ -41,6 +42,6 @@ Hi，宝爸宝妈们好，这期视频带小朋友们一起唱睡前经典儿歌
 <br />
 <br />
 
-<audio src="/files/music/twinkle_twinkle_little_stars.m4a" controls>
+<audio src={`${cos_path_prefix}/files/music/twinkle_twinkle_little_stars.m4a`} controls>
   浏览器暂不支持播放音频，请更换浏览器或打开浏览器播放器音频权限
 </audio>
