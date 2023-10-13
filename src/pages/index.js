@@ -16,7 +16,9 @@ import styles from "./index.module.css";
 const featureList = [
   {
     title: translate({ message: "Picture books" }),
-    path: require("@site/static/img/read.png").default,
+    // path: require("@site/static/img/read.png").default,
+    // change the path to cdn path
+    path: "https://kathschool-1257172559.cos.ap-guangzhou.myqcloud.com/static/img/read.png",
     cls: "book-feature",
     onmouseenter: () => {
       anime({
@@ -42,7 +44,8 @@ const featureList = [
   },
   {
     title: translate({ message: "Songs" }),
-    path: require("@site/static/img/sing.png").default,
+    // path: require("@site/static/img/sing.png").default,
+    path: "https://kathschool-1257172559.cos.ap-guangzhou.myqcloud.com/static/img/sing.png",
     cls: "song-feature",
     onmouseenter: () => {
       anime({
@@ -68,7 +71,8 @@ const featureList = [
   },
   {
     title: translate({ message: "Art crafts" }),
-    path: require("@site/static/img/craft.png").default,
+    // path: require("@site/static/img/craft.png").default,
+    path: "https://kathschool-1257172559.cos.ap-guangzhou.myqcloud.com/static/img/craft.png",
     cls: "craft-feature",
     onmouseenter: () => {
       anime({
@@ -145,7 +149,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className={styles.squrae}>
         <img
-          src="/photo/portrait.png"
+          src="https://kathschool-1257172559.cos.ap-guangzhou.myqcloud.com/static/photo/portrait.png"
           alt="Ms.katherine"
           className={clsx(styles.portrait)}
         />
