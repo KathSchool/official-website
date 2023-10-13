@@ -1,0 +1,45 @@
+---
+title: Five Little Ducks
+sidebar_label: Nursery Rhyme - Tutorial Five Little Ducks
+pagination_label: Nursery Rhyme - Tutorial Five Little Ducks
+---
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
+## Introduction
+
+Hi, dear parents! In this video, we'll sing the counting song "Five Little Ducks" with the kids!
+
+Follow [Kathschool](https://space.bilibili.com/20797715) for a fun English learning experience for children.
+
+## Video
+
+<iframe
+  src="https://player.bilibili.com/player.html?bvid=BV1JH4y1R7j7&cid=1&page=1"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="640"
+  height="360"
+></iframe>
+
+## Resources
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/five_little_ducks.m4a");
+  }}
+>
+  Download File
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/five_little_ducks.m4a" controls>
+  Your browser does not support audio playback. Please switch browsers or enable audio permissions in your browser's player.
+</audio>

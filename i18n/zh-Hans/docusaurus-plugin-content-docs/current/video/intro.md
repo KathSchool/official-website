@@ -17,9 +17,13 @@ import Badge from '@mui/material/Badge';
 
 
 ## 目录
-* [\[儿歌\]小小的蜘蛛](/video/Song-儿歌/the_Itsy_bitsy_spider) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[儿歌\]唱儿歌学26个字母的发音](/video/Song-儿歌/phonics_song) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[儿歌\]认识26个字母](/video/Song-儿歌/alphabet_dance) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+
+* [\[儿歌\]五只小鸭鸭](/video/Song-儿歌/five_little_ducks) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[绘本\]也许月亮是一个月饼](/video/Book-绘本/mooncake) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[儿歌\]小星星](/video/Song-儿歌/little_stars) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[儿歌\]小小的蜘蛛](/video/Song-儿歌/the_Itsy_bitsy_spider) 
+* [\[儿歌\]唱儿歌学26个字母的发音](/video/Song-儿歌/phonics_song)
+* [\[儿歌\]认识26个字母](/video/Song-儿歌/alphabet_dance)
 * [\[手工\]一起画毛毛虫](/video/Artcraft-手工/the_very_hungry_caterpillar)
 * [\[儿歌\]Do You Like Broccoli Ice-Cream](/video/Song-儿歌/do_you_like_broccoli_ice-cream)
 * [\[儿歌\]一起唱 Walking Walking](/video/Song-儿歌/walking_walking) 

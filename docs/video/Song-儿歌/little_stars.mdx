@@ -1,0 +1,45 @@
+---
+title: Twinkle Twinkle Little Star
+sidebar_label: Twinkle Twinkle Little Star Nursery Rhyme Tutorial
+pagination_label: Twinkle Twinkle Little Star Nursery Rhyme Tutorial
+---
+
+import Button from "@mui/material/Button";
+import { downloadStaticResource } from "/src/tools/download.js";
+
+## Introduction
+
+Hello, dear parents! In this video, we will sing the classic lullaby "Twinkle Twinkle Little Star" with the little ones. What's your child's bedtime routine? Get ready and let's sing a goodnight song together!
+
+Follow [kathschool](https://space.bilibili.com/20797715) for a joyful English learning experience for children.
+
+## Video
+
+<iframe
+  src="https://player.bilibili.com/player.html?bvid=BV14K4y1F7yM&cid=1&page=1"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="640"
+  height="360"
+></iframe>
+
+## Resources
+
+<Button
+  variant="outlined"
+  id="downloadButton"
+  onClick={function () {
+    downloadStaticResource("/files/music/twinkle_twinkle_little_stars.m4a");
+  }}
+>
+  Download File
+</Button>
+<br />
+<br />
+
+<audio src="/files/music/twinkle_twinkle_little_stars.m4a" controls>
+  Your browser does not support audio playback. Please switch browsers or enable audio permissions in your browser's player.
+</audio>

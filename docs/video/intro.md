@@ -17,9 +17,12 @@ Click on the **materials** in the right navigation or scroll down below the vide
 
 
 ## Table of Contents
-* [\[Song\]The Itsy Bitsy Spider](/video/Song-儿歌/the_Itsy_bitsy_spider) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[Song\]Phonics Song](/video/Song-儿歌/phonics_song) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
-* [\[Song\]Alphabet Dance](/video/Song-儿歌/alphabet_dance) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Song\]Five Little Ducks](/video/Song-儿歌/five_little_ducks) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Book\]A Big Mooncake for Little Star](/video/Book-绘本/mooncake) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Song\]Twinkle Twinkle Little Star](/video/Song-儿歌/little_stars) <Badge style={{marginLeft: '20px'}} badgeContent="new" color="primary"></Badge>
+* [\[Song\]The Itsy Bitsy Spider](/video/Song-儿歌/the_Itsy_bitsy_spider)
+* [\[Song\]Phonics Song](/video/Song-儿歌/phonics_song)
+* [\[Song\]Alphabet Dance](/video/Song-儿歌/alphabet_dance)
 * [\[Artcraft\]The Very Hungry Caterpillar](/video/Artcraft-手工/the_very_hungry_caterpillar)
 * [\[Song\]Do You Like Broccoli Ice-Cream](/video/Song-儿歌/do_you_like_broccoli_ice-cream)
 * [\[Song\] Let's Sing Walking Walking](/video/Song-儿歌/walking_walking)
